@@ -1,0 +1,4 @@
+#Mon Aug 12 00:31:45 WEST 2019
+base.0=/Users/robot/Documents/button_tabs_ios/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
