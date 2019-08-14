@@ -216,7 +216,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     if (_buttonTap) _setCurrentIndex(_controller.index);
 
     // this resets the button tap
-    if (_controller.index == _prevControllerIndex) _buttonTap = false;
+    if ((_controller.index == _prevControllerIndex) ||
+        (_controller.index == _aniValue.round())) _buttonTap = false;
 
     // save the previous controller index
     _prevControllerIndex = _controller.index;
